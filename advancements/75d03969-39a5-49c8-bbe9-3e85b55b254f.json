@@ -161,6 +161,14 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2020-02-21 00:16:53 -0500",
+      "diamond_chestplate": "2020-02-21 00:16:53 -0500",
+      "diamond_boots": "2020-02-21 00:16:53 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_stained_glass_pane": {
     "criteria": {
       "has_glass": "2019-10-17 17:10:53 -0400"
@@ -605,6 +613,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2019-10-17 17:07:10 -0400"
@@ -629,9 +643,11 @@
       "minecraft:skeleton": "2019-10-17 00:30:05 -0400",
       "minecraft:zombie_pigman": "2019-10-18 00:51:00 -0400",
       "minecraft:ghast": "2019-10-18 00:49:33 -0400",
+      "minecraft:guardian": "2020-02-21 00:07:00 -0500",
       "minecraft:vindicator": "2019-10-18 20:59:59 -0400",
       "minecraft:spider": "2019-10-17 17:47:27 -0400",
       "minecraft:creeper": "2019-10-17 22:23:49 -0400",
+      "minecraft:slime": "2019-10-28 14:58:50 -0400",
       "minecraft:phantom": "2019-10-22 23:02:31 -0400",
       "minecraft:cave_spider": "2019-10-17 18:48:34 -0400",
       "minecraft:enderman": "2019-10-18 21:48:51 -0400",
@@ -854,6 +870,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2019-10-17 00:46:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
     },
     "done": true
   },
@@ -1145,6 +1167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2020-02-21 00:07:01 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2019-10-17 00:27:51 -0400"
@@ -1187,6 +1215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2019-10-28 14:59:12 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2019-10-17 00:20:03 -0400"
@@ -1207,10 +1241,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_mountains": "2020-02-20 23:42:48 -0500",
       "minecraft:forest": "2019-10-17 00:16:25 -0400",
       "minecraft:mountains": "2019-10-17 17:23:46 -0400",
       "minecraft:taiga": "2019-10-18 21:24:01 -0400",
+      "minecraft:snowy_tundra": "2020-02-20 23:42:32 -0500",
+      "minecraft:frozen_river": "2020-02-20 23:47:51 -0500",
       "minecraft:birch_forest": "2019-10-17 17:26:58 -0400",
+      "minecraft:snowy_beach": "2020-02-20 23:41:33 -0500",
       "minecraft:warm_ocean": "2019-10-17 17:16:40 -0400",
       "minecraft:deep_lukewarm_ocean": "2019-10-17 00:39:54 -0400",
       "minecraft:beach": "2019-10-17 00:19:18 -0400",
@@ -1393,6 +1431,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2020-02-21 00:07:01 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_at_least_9_diamond": "2019-10-19 19:34:49 -0400"
@@ -1552,6 +1596,12 @@
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2019-10-17 01:12:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2020-02-21 00:07:01 -0500"
     },
     "done": true
   },
@@ -1742,7 +1792,8 @@
       "rotten_flesh": "2019-10-17 00:33:10 -0400",
       "salmon": "2019-10-17 17:30:31 -0400",
       "melon_slice": "2019-10-18 20:32:27 -0400",
-      "cooked_chicken": "2019-10-17 00:30:11 -0400"
+      "cooked_chicken": "2019-10-17 00:30:11 -0400",
+      "carrot": "2020-02-20 22:33:19 -0500"
     },
     "done": false
   },
@@ -1758,9 +1809,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2019-10-17 00:33:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
     },
     "done": true
   },
@@ -2251,6 +2314,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-10-28 15:02:36 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2019-10-17 17:10:53 -0400"
@@ -2302,6 +2371,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2019-10-17 00:19:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2019-10-28 16:53:07 -0400"
     },
     "done": true
   },
@@ -2527,6 +2602,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_jungle_planks": "2020-02-20 23:29:07 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2019-10-22 23:19:34 -0400"
@@ -2548,6 +2629,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2019-10-17 19:15:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2019-10-28 14:59:12 -0400"
     },
     "done": true
   },
@@ -2593,6 +2680,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_at_least_9_slime_ball": "2019-10-28 15:02:36 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2019-10-17 01:15:15 -0400"
@@ -2614,6 +2707,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2019-10-17 19:11:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
     },
     "done": true
   },
@@ -2695,6 +2794,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_iron_nugget": "2020-02-21 00:01:33 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2019-10-17 00:19:54 -0400"
@@ -2728,6 +2833,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2019-10-17 17:07:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
     },
     "done": true
   },
@@ -2773,6 +2884,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2019-10-18 21:11:51 -0400"
@@ -2788,6 +2905,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2019-10-19 18:24:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-02-20 23:29:07 -0500"
     },
     "done": true
   },
